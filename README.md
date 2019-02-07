@@ -1,7 +1,7 @@
 ## OpenFaaS - Serverless Functions Made Simple
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/openfaas/faas)](https://goreportcard.com/report/github.com/openfaas/faas) [![Build
-Status](https://travis-ci.org/openfaas/faas.svg?branch=master)](https://travis-ci.org/openfaas/faas) [![GoDoc](https://godoc.org/github.com/openfaas/faas?status.svg)](https://godoc.org/github.com/openfaas/faas) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ryskiwt/faas)](https://goreportcard.com/report/github.com/ryskiwt/faas) [![Build
+Status](https://travis-ci.org/openfaas/faas.svg?branch=master)](https://travis-ci.org/ryskiwt/faas) [![GoDoc](https://godoc.org/github.com/ryskiwt/faas?status.svg)](https://godoc.org/github.com/ryskiwt/faas) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![OpenFaaS](https://img.shields.io/badge/openfaas-serverless-blue.svg)](https://www.openfaas.com)
 
 ![OpenFaaS Logo](https://blog.alexellis.io/content/images/2017/08/faas_side.png)
@@ -43,9 +43,9 @@ OpenFaaS&reg; is an independent project founded by [Alex Ellis](https://www.alex
 
 ### Users
 
-[View our end-users](https://docs.openfaas.com/#users-of-openfaas) or get in touch to [have your company added](https://github.com/openfaas/faas/issues/776).
+[View our end-users](https://docs.openfaas.com/#users-of-openfaas) or get in touch to [have your company added](https://github.com/ryskiwt/faas/issues/776).
 
-> Please support [OpenFaaS on Patreon](https://www.patreon.com/alexellis)) and back a great community at the same time. You will be listed as a [backers or sponsor here](https://github.com/openfaas/faas/blob/master/BACKERS.md).
+> Please support [OpenFaaS on Patreon](https://www.patreon.com/alexellis)) and back a great community at the same time. You will be listed as a [backers or sponsor here](https://github.com/ryskiwt/faas/blob/master/BACKERS.md).
 
 Thank you for your support.
 
@@ -62,7 +62,7 @@ Thank you for your support.
 * Your API Gateway will scale functions according to demand by altering the service replica count in the Docker Swarm or Kubernetes API.
 * A UI is baked in allowing you to invoke functions in your browser and create new ones as needed.
 
-> The API Gateway is a RESTful micro-service and you can view the [Swagger docs here](https://github.com/openfaas/faas/tree/master/api-docs).
+> The API Gateway is a RESTful micro-service and you can view the [Swagger docs here](https://github.com/ryskiwt/faas/tree/master/api-docs).
 
 #### CLI
 
@@ -125,7 +125,7 @@ OpenFaaS is Kubernetes-native - you can follow the [deployment guide here](http:
 
 **Docker Swarm**
 
-The deployment guide for Docker Swarm contains a simple one-line command to get you up and running in around 60 seconds. It also includes a set of [sample functions](https://github.com/openfaas/faas/tree/master/sample-functions) which you can use with the TestDrive instructions below.
+The deployment guide for Docker Swarm contains a simple one-line command to get you up and running in around 60 seconds. It also includes a set of [sample functions](https://github.com/ryskiwt/faas/tree/master/sample-functions) which you can use with the TestDrive instructions below.
 
 [Deployment guide for Docker Swarm](http://docs.openfaas.com/deployment/docker-swarm/)
 
@@ -139,7 +139,7 @@ Simply follow the deployment guide for Swarm above in a new session
 
 #### Begin the TestDrive
 
-* [Begin the TestDrive with Docker Swarm](https://github.com/openfaas/faas/blob/master/TestDrive.md)
+* [Begin the TestDrive with Docker Swarm](https://github.com/ryskiwt/faas/blob/master/TestDrive.md)
 
 Here is a screenshot of the API gateway portal - designed for ease of use.
 
@@ -180,7 +180,7 @@ If you'd like to find the functions I used in the demos head over to the [faas-d
 
 Have you written a blog about OpenFaaS? Send a Pull Request to the community page below.
 
-* [Read blogs/articles and find events about OpenFaaS](https://github.com/openfaas/faas/blob/master/community.md)
+* [Read blogs/articles and find events about OpenFaaS](https://github.com/ryskiwt/faas/blob/master/community.md)
 
 If you'd like to join OpenFaaS community Slack channel to chat with contributors or get some help then check out [this page on community](https://docs.openfaas.com/community).
 
@@ -194,7 +194,7 @@ Please see the guide on [community & contributing](https://docs.openfaas.com/com
 
 #### Roadmap
 
-The roadmap for OpenFaaS is represented in [GitHub issues](https://github.com/openfaas/faas/issues) and a Trello board. There is also a historical ROADMAP file in the [main faas repository](https://github.com/openfaas/faas/blob/master/ROADMAP.md).
+The roadmap for OpenFaaS is represented in [GitHub issues](https://github.com/ryskiwt/faas/issues) and a Trello board. There is also a historical ROADMAP file in the [main faas repository](https://github.com/ryskiwt/faas/blob/master/ROADMAP.md).
 
 ##### Roadmap: OpenFaaS Cloud
 

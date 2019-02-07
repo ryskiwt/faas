@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/openfaas/faas-provider/auth"
-	"github.com/openfaas/faas/gateway/scaling"
+	"github.com/ryskiwt/faas/gateway/scaling"
 )
 
 const fallbackValue = 120

@@ -35,4 +35,4 @@ Proposals and feature requests are tracked in Trello and through the GitHub issu
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](https://github.com/openfaas/faas/blob/master/CONTRIBUTING.md).
+Please see [CONTRIBUTING.md](https://github.com/ryskiwt/faas/blob/master/CONTRIBUTING.md).

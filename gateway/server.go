@@ -11,11 +11,11 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/openfaas/faas-provider/auth"
-	"github.com/openfaas/faas/gateway/handlers"
-	"github.com/openfaas/faas/gateway/metrics"
-	"github.com/openfaas/faas/gateway/plugin"
-	"github.com/openfaas/faas/gateway/scaling"
-	"github.com/openfaas/faas/gateway/types"
+	"github.com/ryskiwt/faas/gateway/handlers"
+	"github.com/ryskiwt/faas/gateway/metrics"
+	"github.com/ryskiwt/faas/gateway/plugin"
+	"github.com/ryskiwt/faas/gateway/scaling"
+	"github.com/ryskiwt/faas/gateway/types"
 	natsHandler "github.com/openfaas/nats-queue-worker/handler"
 )
 

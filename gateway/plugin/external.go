@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/openfaas/faas-provider/auth"
-	"github.com/openfaas/faas/gateway/requests"
-	"github.com/openfaas/faas/gateway/scaling"
+	"github.com/ryskiwt/faas/gateway/requests"
+	"github.com/ryskiwt/faas/gateway/scaling"
 )
 
 // NewExternalServiceQuery proxies service queries to external plugin via HTTP

@@ -15,7 +15,7 @@ import (
 	"log"
 
 	"github.com/openfaas/faas-provider/auth"
-	"github.com/openfaas/faas/gateway/requests"
+	"github.com/ryskiwt/faas/gateway/requests"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

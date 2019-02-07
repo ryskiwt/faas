@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/openfaas/faas/gateway/requests"
+	"github.com/ryskiwt/faas/gateway/requests"
 )
 
 type FakePrometheusQueryFetcher struct {

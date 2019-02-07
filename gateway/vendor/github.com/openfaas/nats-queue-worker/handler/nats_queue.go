@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/nats-io/go-nats-streaming"
-	"github.com/openfaas/faas/gateway/queue"
+	"github.com/ryskiwt/faas/gateway/queue"
 )
 
 // NATSQueue queue for work

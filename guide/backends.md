@@ -9,7 +9,7 @@ We support two orchestration platforms or "backends" within the OpenFaaS project
 * Docker Swarm
 * Kubernetes
 
-There are several other backends available with community-support as documented in the [community guide](https://github.com/openfaas/faas/blob/master/community.md#openfaas-providers).
+There are several other backends available with community-support as documented in the [community guide](https://github.com/ryskiwt/faas/blob/master/community.md#openfaas-providers).
 
 The Docker Swarm support is built-into the faas repo, but the Kubernetes support is provided by a microservice in the [faas-netes](https://github.com/openfaas/faas-netes) repo.
 
@@ -26,7 +26,7 @@ Here are some ideas:
 * AWS ECS
 * Hyper.sh
 
-If you would like to write your own back-end for `X` then you can write your own microservice that conforms to the [Swagger API](https://github.com/openfaas/faas/tree/master/api-docs) here.
+If you would like to write your own back-end for `X` then you can write your own microservice that conforms to the [Swagger API](https://github.com/ryskiwt/faas/tree/master/api-docs) here.
 
 ### How does my back-end work?
 
@@ -42,7 +42,7 @@ Invoke your function - through the built-in Swarm or via faas-netes
 
 ![](https://pbs.twimg.com/media/DIyFFnqXgAAMyCh.jpg)
 
-Find out more about the [watchdog here](https://github.com/openfaas/faas/tree/master/watchdog).
+Find out more about the [watchdog here](https://github.com/ryskiwt/faas/tree/master/watchdog).
 
 ### Automatically compatible OpenFaaS
 
@@ -90,7 +90,7 @@ Method(s): POST
 
 ### Examples / documentation
 
-* See the [Swagger API](https://github.com/openfaas/faas/tree/master/api-docs) as a starting point.
+* See the [Swagger API](https://github.com/ryskiwt/faas/tree/master/api-docs) as a starting point.
 
 #### faas-netes (Kubernetes)
 

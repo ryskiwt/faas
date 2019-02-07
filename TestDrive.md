@@ -36,7 +36,7 @@ This one-shot script clones the code, sets up a Docker Swarm master node then de
 
 ```
 # docker swarm init --advertise-addr eth0 && \
-  git clone https://github.com/openfaas/faas && \
+  git clone https://github.com/ryskiwt/faas && \
   cd faas && \
   git checkout 0.8.0 && \
   ./deploy_stack.sh && \
@@ -89,7 +89,7 @@ $ faas-cli --help
 
 ### Invoke the sample functions with curl or Postman:
 
-Head over to the [Github and Star the project](https://github.com/openfaas/faas), or read on to see the input/output from the sample functions.
+Head over to the [Github and Star the project](https://github.com/ryskiwt/faas), or read on to see the input/output from the sample functions.
 
 ### Working with the sample functions
 
@@ -133,7 +133,7 @@ NAME  SERVICES
 func  3
 
 # docker stack ps func
-ID            NAME               IMAGE                                  NODE  DESIRED STATE  CURRENT STATE         
+ID            NAME               IMAGE                                  NODE  DESIRED STATE  CURRENT STATE
 rhzej73haufd  func_gateway.1     alexellis2/faas-gateway:latest         moby  Running        Running 26 minutes ago
 fssz6unq3e74  func_hubstats.1    alexellis2/faas-dockerhubstats:latest  moby  Running        Running 27 minutes ago
 nnlzo6u3pilg  func_prometheus.1  quay.io/prometheus/prometheus:latest   moby  Running        Running 27 minutes ago
@@ -166,7 +166,7 @@ Guides:
 
 Read the developer guide:
 
-* [Packaging a function](https://github.com/openfaas/faas/blob/master/DEV.md)
+* [Packaging a function](https://github.com/ryskiwt/faas/blob/master/DEV.md)
 
 The original blog post also walks through creating a function:
 
@@ -180,7 +180,7 @@ The FaaS CLI can be used to build functions very quickly though the use of templ
 
 **Option 2: via FaaS UI portal**
 
-To attach a function at runtime you can use the "Create New Function" button on the portal UI at http://127.0.0.1:8080/ 
+To attach a function at runtime you can use the "Create New Function" button on the portal UI at http://127.0.0.1:8080/
 
 <a href="https://pbs.twimg.com/media/C8opW3RW0AAc9Th.jpg:large"><img src="https://pbs.twimg.com/media/C8opW3RW0AAc9Th.jpg:large" width="600"></img></a>
 
@@ -195,7 +195,7 @@ Creating a function via the UI:
 
 Once the create button is clicked, faas will provision a new Docker Swarm service. The newly created function will shortly be available in the list of functions on the left hand side of the UI.
 
-**Option 3: Through docker-compose.yml stack file** 
+**Option 3: Through docker-compose.yml stack file**
 
 Edit the docker-compose stack file, then run ./deploy_stack.sh - this will only update changed/added services, not existing ones.
 

@@ -1,6 +1,6 @@
 ## functions/resizer
 
-![](https://github.com/openfaas/faas/blob/master/sample-functions/ResizeImageMagick/gordon.png)
+![](https://github.com/ryskiwt/faas/blob/master/sample-functions/ResizeImageMagick/gordon.png)
 
 Use this FaaS function to resize an image with ImageMagick.
 

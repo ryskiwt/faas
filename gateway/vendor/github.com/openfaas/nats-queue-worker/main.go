@@ -17,7 +17,7 @@ import (
 
 	"github.com/nats-io/go-nats-streaming"
 	"github.com/openfaas/faas-provider/auth"
-	"github.com/openfaas/faas/gateway/queue"
+	"github.com/ryskiwt/faas/gateway/queue"
 	"github.com/openfaas/nats-queue-worker/nats"
 )
 

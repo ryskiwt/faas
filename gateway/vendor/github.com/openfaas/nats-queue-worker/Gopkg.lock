@@ -37,7 +37,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  name = "github.com/openfaas/faas"
+  name = "github.com/ryskiwt/faas"
   packages = ["gateway/queue"]
   revision = "bfa869ec8c0c04c26c5b0ed434bc367e712dcaef"
   version = "0.10.2"

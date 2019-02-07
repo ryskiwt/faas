@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openfaas/faas/gateway/types"
+	"github.com/ryskiwt/faas/gateway/types"
 )
 
 // functionMatcher parses out the service name (group 1) and rest of path (group 2).
@@ -127,7 +127,7 @@ func forwardRequest(w http.ResponseWriter, r *http.Request, proxyClient *http.Cl
 
 	if res.Body != nil {
 		// Copy the body over
-		io.CopyBuffer(w, res.Body, nil)
+		io.CopyN(w, res.Body, 256)
 	}
 
 	return res.StatusCode, nil
