@@ -4,6 +4,7 @@
 package handlers
 
 import (
+	"bufio"
 	"context"
 	"fmt"
 	"io"
@@ -126,8 +127,24 @@ func forwardRequest(w http.ResponseWriter, r *http.Request, proxyClient *http.Cl
 	w.WriteHeader(res.StatusCode)
 
 	if res.Body != nil {
-		// Copy the body over
-		io.CopyN(w, res.Body, 256)
+		defer res.Body.Close()
+
+		if res.ContentLength == -1 {
+			scanner := bufio.NewScanner(res.Body)
+			for scanner.Scan() {
+				if _, bodyErr := fmt.Fprintln(w, scanner.Text()); bodyErr != nil {
+					log.Println("read body err", bodyErr)
+				}
+				w.(http.Flusher).Flush()
+			}
+			if scanErr := scanner.Err(); scanErr != nil {
+				log.Println("read body err", scanErr)
+			}
+		} else {
+			if _, bodyErr := io.Copy(w, res.Body); bodyErr != nil {
+				log.Println("read body err", bodyErr)
+			}
+		}
 	}
 
 	return res.StatusCode, nil
