@@ -127,7 +127,8 @@ func forwardRequest(w http.ResponseWriter, r *http.Request, proxyClient *http.Cl
 
 	if res.Body != nil {
 		defer res.Body.Close()
-		if _, bodyErr := io.Copy(w, res.Body); bodyErr != nil {
+		r := io.TeeReader(res.Body, os.Stdout)
+		if _, bodyErr := io.Copy(w, r); bodyErr != nil {
 			log.Println("read body err", bodyErr)
 		}
 	}
